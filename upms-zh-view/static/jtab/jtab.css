@@ -1,0 +1,11 @@
+.jtab{}
+.jtab-menu-container{height: 40px; width: 100%}
+.jtab-ul-container{ width: 800px;float: left}
+.jtab-ul-container ul{list-style: none;margin: 0px; padding: 0px;}
+.jtab-ul-container ul li{list-style: none; float: left}
+
+.jtab-prev{width: 100px;float: left}
+.jtab-next{width: 100px;float: left}
+.jtab-quick-menus{width: 30px; float: right}
+.jtab-quick-menus ul{list-style: none;margin: 0px; padding: 0px;}
+.jtab-quick-menus ul li{}

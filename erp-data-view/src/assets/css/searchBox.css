@@ -1,0 +1,65 @@
+@charset "utf-8";
+/**
+ * Created by chenyin on 2018/5/22.
+ */
+#searchBox{
+  position: relative;
+}
+.grid-content {
+  margin-bottom: 10px;
+}
+.grid-content>.el-input{
+  width: 65%!important;
+}
+.grid-content>.el-select{
+  width: 65%!important;
+}
+.grid-content>.multiselect-native-select{
+  width:65% !important;
+}
+.grid-content>label{
+  width:60px;
+  display:inline-block;
+  text-align:right;
+}
+.leftBox1{
+  margin-right: 110px;
+}
+.leftBox2{
+  margin-right: 220px;
+}
+.rightBox1{
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 110px;
+  text-align: right;
+}
+.rightBox2{
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 220px;
+  text-align: right;
+}
+@media screen and (min-width:1461px){
+  #searchBox .el-col-6{
+    width: 20%;
+  }
+}
+@media screen and (max-width:1461px){
+  #searchBox .el-col-6{
+    width: 25%;
+  }
+}
+
+/*其他*/
+.cen-g{
+  text-align: center;
+  margin-bottom: 0;
+  line-height: 30px;
+}
+.initP-g{
+  margin-bottom: 0;
+  line-height: 30px;
+}

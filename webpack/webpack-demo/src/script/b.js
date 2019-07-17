@@ -1,0 +1,1 @@
+console.log('<script type="text/javascript" src="<%= htmlWebpackPlugin.files.chunks.main.entry %>"></script>');

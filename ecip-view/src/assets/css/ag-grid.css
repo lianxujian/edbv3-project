@@ -1,0 +1,44 @@
+/*
+  ag-grid 样式覆盖
+  Created by fanhu on 2018/3/25.
+*/
+.ag-theme-balham .ag-cell-focus{
+  border:none !important;
+}
+.ag-theme-balham .ag-row-selected{
+  background-color:#fff !important;
+}
+.ag-theme-balham .ag-row-selected {
+  border-bottom-color:#d9dcde !important;
+}
+select{
+  width: 100%;
+}
+.ag-cell>span{
+  display:inline-block;
+  width:100%;
+  height: 100%;
+}
+.ag-cell .icon-edit{
+  position:absolute;right:0;top:7px;cursor:pointer;display:none;
+}
+.ag-cell>div{
+  height: 100%;
+}
+.ag-cell .mouse-edit{
+  display:inline-block;
+  width:100%;
+  height: 100%;
+  overflow:hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.ag-pivot-mode-select{
+  display:none;
+}
+.ag-column-drop-values{
+  display:none !important;
+}
+.ag-theme-balham .ag-header-cell-label > span{
+  margin:auto;
+}

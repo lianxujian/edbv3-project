@@ -1,0 +1,1 @@
+console.log('<%= compilation.assets[htmlWebpackPlugin.files.chunks.main.entry.substr(htmlWebpackPlugin.files.publicPath.length).source()] %>');
