@@ -1,0 +1,199 @@
+/*
+  element样式覆盖
+  Created by fanhu on 2018/3/25.
+*/
+/*遮罩层*/
+/*.el-loading-mask{
+  background-color:rgba(0, 0, 0, 0.8) !important;
+}*/
+.el-input__icon {
+  line-height: 100% !important;
+}
+.el-input-group>.el-input__inner{
+  display:inline-block !important;
+}
+.el-upload__input{
+  display:none !important;
+}
+.el-textarea .el-textarea__inner{
+  height:80px;
+}
+/*覆盖一些element-ui样式*/
+ .el-input.is-disabled .el-input__inner,.el-textarea.is-disabled .el-textarea__inner{
+   background-color: #fff !important;
+ }
+.el-select .el-tag__close.el-icon-close{
+  display:none;
+}
+.el-input-number .el-input__inner{
+  text-align:left !important;
+}
+ /*-----分页------*/
+
+ .col-pagination {
+   position: fixed;
+   height: 65px;
+   border-top: 15px solid #F0F1F5;
+   background: #fff;
+   bottom: 0px;
+   width: 100%;
+   left: 0;
+   z-index: 10;
+ }
+
+ /*------底部固定按钮-------*/
+ .col-button{
+   position: fixed;
+   line-height: 60px;
+   height: 75px;
+   border-top: 15px solid #F0F1F5;
+   background: #fff;
+   bottom: 0px;
+   width: 100%;
+   left: 0;
+   z-index: 10;
+   text-align:center;
+ }
+ .col-button>div{
+   background:#fff;
+   padding-right:20px;
+ }
+
+ .col-pagination .el-pagination{
+   float:right;
+   margin:10px 50px 0 0;
+ }
+
+ /*----导航条----*/
+
+ .col-nav {
+   background: #F1F1F1;
+   width: 100%;
+   height: 30px;
+ }
+
+ .col-nav ul li {
+   float: left;
+   height: 30px;
+   line-height: 30px;
+   cursor: pointer;
+ }
+
+ .col-nav ul li:hover {
+   color: #fff;
+   background: #818D9B;
+ }
+
+ .col-nav ul li span {
+   border-right: 1px solid #ccc;
+   padding: 0 10px;
+ }
+
+ /*.col-nav ul li span:last-child{
+   border-right:none;
+ }*/
+   /*-----弹框-----*/
+
+ .el-dialog__title {
+   font-size: 16px;
+ }
+
+ .el-dialog__header {
+   border-bottom: 1px solid #eee;
+   text-align: left;
+   padding: 15px 15px 10px;
+ }
+
+ .el-dialog__body{
+   padding:30px 50px !important;
+ }
+
+ .el-dialog__footer {
+   padding: 0 50px 40px 50px;
+   text-align: right !important;
+ }
+
+ .dialog-pagination {
+   background: #f4f4f4;
+   text-align: center;
+ }
+
+ /*-----提示框----*/
+
+ .el-message-box__header {
+   padding-top: 20px !important;
+   border-bottom: 1px solid #eee;
+   height: 50px;
+ }
+
+ .el-message-box__btns .el-button {
+   height: 35px;
+ }
+
+ .el-message-box__btns .el-button span {
+   font-size: 14px;
+ }
+
+ .el-message-box {
+   width: 350px;
+ }
+
+ .el-message-box__content {
+   padding: 27px;
+ }
+
+ .el-message-box__message p {
+   font-size: 14px;
+ }
+
+ .el-message-box__title span {
+   font-size: 16px;
+ }
+
+ /*----icon图标color-----*/
+
+ .el-icon-question {
+   color: #999 !important;
+ }
+ .refresh{
+   cursor:pointer;
+   margin-top:8px;
+   margin-left:10px;
+ }
+
+ /*------面包屑-------*/
+
+ .col-breadcrumb {
+   width: 100%;
+   background: #eee;
+   padding: 10px;
+ }
+ .el-breadcrumb__inner{
+   cursor:pointer;
+   font-weight:bold;
+   color:#000;
+ }
+.el-breadcrumb__inner:hover{
+  color:#409EFF;
+}
+.el-tag--small {
+  max-width: 110px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/*---表格样式---*/
+
+.el-table__row td{
+  padding: 0 !important;
+  height: 35px;
+}
+
+.el-table th {
+  background: #f4f4f4 !important;
+  height: 35px;
+  padding:0 !important;
+}
+.el-table--border img{
+  height: 25px;
+}
