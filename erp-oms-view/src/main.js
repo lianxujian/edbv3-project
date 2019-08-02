@@ -39,9 +39,6 @@ import '@/assets/js/http'
 import * as technology from '@/assets/js/validate'
 Vue.prototype.$Technology = technology;
 
-//全局loading
-Vue.prototype.$loading = false;
-
 //dialog拖拽
 import '@/assets/js/directives.js'
 
